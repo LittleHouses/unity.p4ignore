@@ -1,5 +1,76 @@
-#directories
-Library
-Temp
-obj
-Deploy
+# ignore p4ignore files
+*.p4ignore
+
+### selected from the Unity standard gitignore
+
+# Directories
+Library\
+library\
+Temp\
+temp\
+Obj\
+obj\
+Build\
+build\
+Builds\
+builds\
+Logs\
+logs\
+UserSettings\
+usersettings\
+MemoryCaptures\
+memorycaptures\
+
+# Visual Studio cache directory
+.vs\
+
+# Gradle cache directory
+.gradle\
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.unitypackage
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+Assets\AddressableAssetsData\*\*.bin*
+
+#Temporary auto-generated Android Asssets
+Assets\StreamingAssets\aa.meta
+Assets\StreamingAssets\aa\*
+
+
+### from the Windows standard gitignore
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+Desktop.ini
+desktop.ini
+
+# Windows installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
