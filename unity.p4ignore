@@ -1,5 +1,3 @@
-# ignore p4ignore files
-*.p4ignore
 
 ### selected from the Unity standard gitignore
 
@@ -23,11 +21,14 @@ memorycaptures\
 
 # Visual Studio cache directory
 .vs\
+*.sln
+.csproj\
 
 # Gradle cache directory
 .gradle\
 
 # Unity3D generated meta files
+*.meta
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
