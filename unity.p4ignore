@@ -22,7 +22,7 @@ memorycaptures\
 # Visual Studio cache directory
 .vs\
 *.sln
-.csproj\
+*.csproj\
 
 # Gradle cache directory
 .gradle\
