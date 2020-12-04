@@ -27,12 +27,6 @@ memorycaptures\
 # Gradle cache directory
 .gradle\
 
-# Unity3D generated meta files
-*.meta
-*.pidb.meta
-*.pdb.meta
-*.mdb.meta
-
 # Unity3D generated file on crash reports
 sysinfo.txt
 
